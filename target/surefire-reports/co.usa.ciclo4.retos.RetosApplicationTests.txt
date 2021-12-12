@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.usa.ciclo4.retos.RetosApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.219 s - in co.usa.ciclo4.retos.RetosApplicationTests

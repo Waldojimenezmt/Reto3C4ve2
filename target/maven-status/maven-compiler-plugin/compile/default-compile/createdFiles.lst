@@ -1,0 +1,17 @@
+co\usa\ciclo4\retos\repository\OrderRepository.class
+co\usa\ciclo4\retos\dmodel\Order.class
+co\usa\ciclo4\retos\repository\CloneRepository.class
+co\usa\ciclo4\retos\service\CloneService.class
+co\usa\ciclo4\retos\icrudrepository\CloneCrudRepository.class
+co\usa\ciclo4\retos\repository\UserRepository.class
+co\usa\ciclo4\retos\service\OrderService.class
+co\usa\ciclo4\retos\dmodel\User.class
+co\usa\ciclo4\retos\wcontroller\OrderController.class
+co\usa\ciclo4\retos\service\UserService.class
+co\usa\ciclo4\retos\dmodel\Clone.class
+co\usa\ciclo4\retos\RetosApplication.class
+co\usa\ciclo4\retos\icrudrepository\OrderCrudRepository.class
+co\usa\ciclo4\retos\icrudrepository\UserCrudRepository.class
+co\usa\ciclo4\retos\wcontroller\CloneController.class
+co\usa\ciclo4\retos\dmodel\User$UserBuilder.class
+co\usa\ciclo4\retos\wcontroller\UserController.class

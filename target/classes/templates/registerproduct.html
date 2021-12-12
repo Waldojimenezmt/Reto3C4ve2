@@ -1,0 +1,121 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cacharerro</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/recursivo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/registerproduct.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Registrar nuevo producto</h3>
+                    <div class="d-flex justify-content-end social_icon">
+                        <span><img id="Git" src="img/Captura.png" alt="MDN">  </span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form action="login.html">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="far fa-copyright"></i></span>
+                            </div>
+                            <input type="brand_Prod" id="brand_Prod" class=" form-control " placeholder="Marca " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fas fa-microchip "></i></span>
+                            </div>
+                            <input type="procesor_Prod " id="procesor_Prod " class="form-control " placeholder="Procesador " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fas fa-desktop "></i></span>
+                            </div>
+                            <input type="os_Prod " id="os_Prod " class="form-control " placeholder="OS " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fas fa-comments "></i></span>
+                            </div>
+                            <input type="description_Prod " id="description_Prod " class="form-control " placeholder="Descripcion " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fas fa-memory "></i></span>
+                            </div>
+                            <input type="memory_Prod " id="memory_Prod " class="form-control " placeholder="Memoria " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fas fa-hdd "></i></span>
+                            </div>
+                            <input type="hardDrive_Prod " id="hardDrive_Prod " class="form-control " placeholder="Disco Duro " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fab fa-stack-overflow "></i></span>
+                            </div>
+                            <select name="availability_Prod " id="availability_Prod " class="form-control " required>
+                                <option selected value=" ">Selecciona disponibilidad</option>
+                                <option value="disponible ">Disponible</option>
+                                <option value="noDisponible ">No disponible</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="fas fa-dollar-sign "></i></span>
+                            </div>
+                            <input type="price_Prod " id="price_Prod " class="form-control " placeholder="Precio " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="far fa-copy "></i></span>
+                            </div>
+                            <input type="quantity_Prod " id="quantity_Prod " class="form-control " placeholder="Cantidad " required>
+                        </div>
+
+                        <div class="input-group form-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text "><i class="far fa-image "></i></span>
+                            </div>
+                            <input type="photography_Prod " id="photography_Prod " class="form-control " placeholder="Fotografía " required>
+                        </div>
+
+
+                    </form>
+                    <div class="form-group ">
+                        <button id="agregarproducto " type="submit " onclick="validarVacios()" class="btn float-right login_btn "> Agregar</button >
+					</div>
+			</div>
+			<div class="card-footer ">
+				<div class="d-flex justify-content-center links ">
+					<a  href="Inventario.html ">Ir a inventario</a>
+                    
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
